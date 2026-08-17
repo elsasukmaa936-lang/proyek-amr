@@ -1,0 +1,4 @@
+[console_scripts]
+base_control_node = base_control_ros2.base_control_ros2:main
+test_node = base_control_ros2.test_node:main
+

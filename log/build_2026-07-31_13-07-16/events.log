@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.001559] (base_control_ros2) JobQueued: {'identifier': 'base_control_ros2', 'dependencies': OrderedDict()}
+[0.002141] (base_control_ros2) JobStarted: {'identifier': 'base_control_ros2'}
+[0.099082] (-) TimerEvent: {}
+[0.199751] (-) TimerEvent: {}
+[0.300425] (-) TimerEvent: {}
+[0.401103] (-) TimerEvent: {}
+[0.501743] (-) TimerEvent: {}
+[0.602359] (-) TimerEvent: {}
+[0.702938] (-) TimerEvent: {}
+[0.803592] (-) TimerEvent: {}
+[0.904169] (-) TimerEvent: {}
+[1.004923] (-) TimerEvent: {}
+[1.105869] (-) TimerEvent: {}
+[1.206576] (-) TimerEvent: {}
+[1.307193] (-) TimerEvent: {}
+[1.407847] (-) TimerEvent: {}
+[1.508477] (-) TimerEvent: {}
+[1.609115] (-) TimerEvent: {}
+[1.709692] (-) TimerEvent: {}
+[1.810267] (-) TimerEvent: {}
+[1.910864] (-) TimerEvent: {}
+[2.011492] (-) TimerEvent: {}
+[2.112074] (-) TimerEvent: {}
+[2.212670] (-) TimerEvent: {}
+[2.313435] (-) TimerEvent: {}
+[2.414577] (-) TimerEvent: {}
+[2.515492] (-) TimerEvent: {}
+[2.616149] (-) TimerEvent: {}
+[2.716809] (-) TimerEvent: {}
+[2.817419] (-) TimerEvent: {}
+[2.918016] (-) TimerEvent: {}
+[3.018619] (-) TimerEvent: {}
+[3.119201] (-) TimerEvent: {}
+[3.219779] (-) TimerEvent: {}
+[3.320387] (-) TimerEvent: {}
+[3.421315] (-) TimerEvent: {}
+[3.522093] (-) TimerEvent: {}
+[3.559837] (base_control_ros2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/amr/amr_ws/build/base_control_ros2/build', '--no-deps', 'symlink_data'], 'cwd': '/home/amr/amr_ws/build/base_control_ros2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'amr', 'SSH_CLIENT': '192.168.137.1 8763 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/amr', 'OLDPWD': '/home/amr/amr_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'amr', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/amr/amr_ws/build/base_control_ros2', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 8763 192.168.137.79 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/amr/amr_ws/build/base_control_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/amr_ws/install/base_control_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.622290] (-) TimerEvent: {}
+[3.723088] (-) TimerEvent: {}
+[3.823781] (-) TimerEvent: {}
+[3.924484] (-) TimerEvent: {}
+[4.025186] (-) TimerEvent: {}
+[4.125783] (-) TimerEvent: {}
+[4.226483] (-) TimerEvent: {}
+[4.327060] (-) TimerEvent: {}
+[4.427647] (-) TimerEvent: {}
+[4.528253] (-) TimerEvent: {}
+[4.561259] (base_control_ros2) StdoutLine: {'line': b'running develop\n'}
+[4.628404] (-) TimerEvent: {}
+[4.729041] (-) TimerEvent: {}
+[4.829617] (-) TimerEvent: {}
+[4.930202] (-) TimerEvent: {}
+[5.030780] (-) TimerEvent: {}
+[5.131361] (-) TimerEvent: {}
+[5.140605] (base_control_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[5.141256] (base_control_ros2) StdoutLine: {'line': b'writing base_control_ros2.egg-info/PKG-INFO\n'}
+[5.142286] (base_control_ros2) StdoutLine: {'line': b'writing dependency_links to base_control_ros2.egg-info/dependency_links.txt\n'}
+[5.143229] (base_control_ros2) StdoutLine: {'line': b'writing entry points to base_control_ros2.egg-info/entry_points.txt\n'}
+[5.144002] (base_control_ros2) StdoutLine: {'line': b'writing requirements to base_control_ros2.egg-info/requires.txt\n'}
+[5.144597] (base_control_ros2) StdoutLine: {'line': b'writing top-level names to base_control_ros2.egg-info/top_level.txt\n'}
+[5.151560] (base_control_ros2) StdoutLine: {'line': b"reading manifest file 'base_control_ros2.egg-info/SOURCES.txt'\n"}
+[5.154839] (base_control_ros2) StdoutLine: {'line': b"writing manifest file 'base_control_ros2.egg-info/SOURCES.txt'\n"}
+[5.160024] (base_control_ros2) StdoutLine: {'line': b'running build_ext\n'}
+[5.160890] (base_control_ros2) StdoutLine: {'line': b'Creating /home/amr/amr_ws/install/base_control_ros2/lib/python3.10/site-packages/base-control-ros2.egg-link (link to .)\n'}
+[5.164378] (base_control_ros2) StdoutLine: {'line': b'Installing base_control_node script to /home/amr/amr_ws/install/base_control_ros2/lib/base_control_ros2\n'}
+[5.165246] (base_control_ros2) StdoutLine: {'line': b'Installing test_node script to /home/amr/amr_ws/install/base_control_ros2/lib/base_control_ros2\n'}
+[5.166474] (base_control_ros2) StdoutLine: {'line': b'\n'}
+[5.166980] (base_control_ros2) StdoutLine: {'line': b'Installed /home/amr/amr_ws/build/base_control_ros2\n'}
+[5.167298] (base_control_ros2) StdoutLine: {'line': b'running symlink_data\n'}
+[5.231649] (-) TimerEvent: {}
+[5.293942] (base_control_ros2) CommandEnded: {'returncode': 0}
+[5.332479] (-) TimerEvent: {}
+[5.348109] (base_control_ros2) JobEnded: {'identifier': 'base_control_ros2', 'rc': 0}
+[5.350833] (-) EventReactorShutdown: {}

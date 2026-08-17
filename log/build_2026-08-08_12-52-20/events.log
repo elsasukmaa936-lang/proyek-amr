@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.001387] (-) JobUnselected: {'identifier': 'base_control_ros2'}
+[0.002411] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.003078] (amr_description) JobQueued: {'identifier': 'amr_description', 'dependencies': OrderedDict()}
+[0.003704] (amr_description) JobStarted: {'identifier': 'amr_description'}
+[0.054033] (amr_description) JobProgress: {'identifier': 'amr_description', 'progress': 'cmake'}
+[0.056652] (amr_description) Command: {'cmd': ['/usr/bin/cmake', '/home/amr/amr_ws/src/amr_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/amr/amr_ws/install/amr_description'], 'cwd': '/home/amr/amr_ws/build/amr_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amr'), ('SSH_CLIENT', '10.154.187.185 19270 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/amr'), ('OLDPWD', '/home/amr/amr_ws/src/amr_description'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/amr/amr_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amr/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/amr/amr_ws/install/sllidar_ros2:/home/amr/amr_ws/install/base_control_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/amr/amr_ws/build/amr_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.154.187.185 19270 10.154.187.12 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amr/amr_ws/build/base_control_ros2:/home/amr/amr_ws/install/base_control_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amr/amr_ws/install/sllidar_ros2:/home/amr/amr_ws/install/base_control_ros2:/opt/ros/humble')]), 'shell': False}
+[0.099275] (-) TimerEvent: {}
+[0.200458] (-) TimerEvent: {}
+[0.301253] (-) TimerEvent: {}
+[0.402065] (-) TimerEvent: {}
+[0.502831] (-) TimerEvent: {}
+[0.603715] (-) TimerEvent: {}
+[0.704493] (-) TimerEvent: {}
+[0.805328] (-) TimerEvent: {}
+[0.906329] (-) TimerEvent: {}
+[1.007298] (-) TimerEvent: {}
+[1.059433] (amr_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.107542] (-) TimerEvent: {}
+[1.208229] (-) TimerEvent: {}
+[1.308989] (-) TimerEvent: {}
+[1.409727] (-) TimerEvent: {}
+[1.510458] (-) TimerEvent: {}
+[1.611218] (-) TimerEvent: {}
+[1.712144] (-) TimerEvent: {}
+[1.755312] (amr_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.803108] (amr_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.812287] (-) TimerEvent: {}
+[1.913105] (-) TimerEvent: {}
+[2.014040] (-) TimerEvent: {}
+[2.114946] (-) TimerEvent: {}
+[2.215704] (-) TimerEvent: {}
+[2.316462] (-) TimerEvent: {}
+[2.417454] (-) TimerEvent: {}
+[2.463505] (amr_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.490201] (amr_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.495120] (amr_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.517569] (-) TimerEvent: {}
+[2.618337] (-) TimerEvent: {}
+[2.706758] (amr_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.718500] (-) TimerEvent: {}
+[2.725138] (amr_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.818669] (-) TimerEvent: {}
+[2.919500] (-) TimerEvent: {}
+[3.020315] (-) TimerEvent: {}
+[3.107050] (amr_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.120461] (-) TimerEvent: {}
+[3.134612] (amr_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.135806] (amr_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.137344] (amr_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.176280] (amr_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.220626] (-) TimerEvent: {}
+[3.321364] (-) TimerEvent: {}
+[3.422016] (-) TimerEvent: {}
+[3.522965] (-) TimerEvent: {}
+[3.623756] (-) TimerEvent: {}
+[3.724634] (-) TimerEvent: {}
+[3.825601] (-) TimerEvent: {}
+[3.927002] (-) TimerEvent: {}
+[3.968665] (amr_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.027167] (-) TimerEvent: {}
+[4.127840] (-) TimerEvent: {}
+[4.228454] (-) TimerEvent: {}
+[4.305606] (amr_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.328616] (-) TimerEvent: {}
+[4.429264] (-) TimerEvent: {}
+[4.529910] (-) TimerEvent: {}
+[4.630546] (-) TimerEvent: {}
+[4.731187] (-) TimerEvent: {}
+[4.832081] (-) TimerEvent: {}
+[4.901297] (amr_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.920822] (amr_description) StdoutLine: {'line': b'-- Generating done\n'}
+[4.928347] (amr_description) StdoutLine: {'line': b'-- Build files have been written to: /home/amr/amr_ws/build/amr_description\n'}
+[4.932388] (-) TimerEvent: {}
+[4.942855] (amr_description) CommandEnded: {'returncode': 0}
+[4.944793] (amr_description) JobProgress: {'identifier': 'amr_description', 'progress': 'build'}
+[4.947014] (amr_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/amr/amr_ws/build/amr_description', '--', '-j4', '-l4'], 'cwd': '/home/amr/amr_ws/build/amr_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amr'), ('SSH_CLIENT', '10.154.187.185 19270 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/amr'), ('OLDPWD', '/home/amr/amr_ws/src/amr_description'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/amr/amr_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amr/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/amr/amr_ws/install/sllidar_ros2:/home/amr/amr_ws/install/base_control_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/amr/amr_ws/build/amr_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.154.187.185 19270 10.154.187.12 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amr/amr_ws/build/base_control_ros2:/home/amr/amr_ws/install/base_control_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amr/amr_ws/install/sllidar_ros2:/home/amr/amr_ws/install/base_control_ros2:/opt/ros/humble')]), 'shell': False}
+[5.032597] (-) TimerEvent: {}
+[5.089501] (amr_description) CommandEnded: {'returncode': 0}
+[5.091534] (amr_description) JobProgress: {'identifier': 'amr_description', 'progress': 'install'}
+[5.123923] (amr_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/amr/amr_ws/build/amr_description'], 'cwd': '/home/amr/amr_ws/build/amr_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amr'), ('SSH_CLIENT', '10.154.187.185 19270 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/amr'), ('OLDPWD', '/home/amr/amr_ws/src/amr_description'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/amr/amr_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amr'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amr/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/amr/amr_ws/install/sllidar_ros2:/home/amr/amr_ws/install/base_control_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/amr/amr_ws/build/amr_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.154.187.185 19270 10.154.187.12 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amr/amr_ws/build/base_control_ros2:/home/amr/amr_ws/install/base_control_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amr/amr_ws/install/sllidar_ros2:/home/amr/amr_ws/install/base_control_ros2:/opt/ros/humble')]), 'shell': False}
+[5.132788] (-) TimerEvent: {}
+[5.156191] (amr_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.157774] (amr_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.159867] (amr_description) StdoutLine: {'line': b'-- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/urdf/amr.urdf.xacro\n'}
+[5.190063] (amr_description) StdoutLine: {'line': b'-- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/launch/description.launch.py\n'}
+[5.221548] (amr_description) StdoutLine: {'line': b'-- Symlinking: /home/amr/amr_ws/install/amr_description/share/ament_index/resource_index/package_run_dependencies/amr_description\n'}
+[5.232984] (-) TimerEvent: {}
+[5.253026] (amr_description) StdoutLine: {'line': b'-- Symlinking: /home/amr/amr_ws/install/amr_description/share/ament_index/resource_index/parent_prefix_path/amr_description\n'}
+[5.284516] (amr_description) StdoutLine: {'line': b'-- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/environment/ament_prefix_path.sh\n'}
+[5.315760] (amr_description) StdoutLine: {'line': b'-- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/environment/ament_prefix_path.dsv\n'}
+[5.333157] (-) TimerEvent: {}
+[5.346633] (amr_description) StdoutLine: {'line': b'-- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/environment/path.sh\n'}
+[5.376459] (amr_description) StdoutLine: {'line': b'-- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/environment/path.dsv\n'}
+[5.407048] (amr_description) StdoutLine: {'line': b'-- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/local_setup.bash\n'}
+[5.433490] (-) TimerEvent: {}
+[5.437734] (amr_description) StdoutLine: {'line': b'-- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/local_setup.sh\n'}
+[5.467179] (amr_description) StdoutLine: {'line': b'-- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/local_setup.zsh\n'}
+[5.497859] (amr_description) StdoutLine: {'line': b'-- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/local_setup.dsv\n'}
+[5.528298] (amr_description) StdoutLine: {'line': b'-- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/package.dsv\n'}
+[5.533725] (-) TimerEvent: {}
+[5.558857] (amr_description) StdoutLine: {'line': b'-- Symlinking: /home/amr/amr_ws/install/amr_description/share/ament_index/resource_index/packages/amr_description\n'}
+[5.590190] (amr_description) StdoutLine: {'line': b'-- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/cmake/amr_descriptionConfig.cmake\n'}
+[5.620703] (amr_description) StdoutLine: {'line': b'-- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/cmake/amr_descriptionConfig-version.cmake\n'}
+[5.633912] (-) TimerEvent: {}
+[5.651226] (amr_description) StdoutLine: {'line': b'-- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/package.xml\n'}
+[5.686871] (amr_description) CommandEnded: {'returncode': 0}
+[5.734073] (-) TimerEvent: {}
+[5.796014] (amr_description) JobEnded: {'identifier': 'amr_description', 'rc': 0}
+[5.798434] (-) EventReactorShutdown: {}

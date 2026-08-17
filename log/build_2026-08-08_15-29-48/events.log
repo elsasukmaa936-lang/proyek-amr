@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000907] (-) JobUnselected: {'identifier': 'amr_description'}
+[0.002080] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.002730] (base_control_ros2) JobQueued: {'identifier': 'base_control_ros2', 'dependencies': OrderedDict()}
+[0.003188] (base_control_ros2) JobStarted: {'identifier': 'base_control_ros2'}
+[0.098940] (-) TimerEvent: {}
+[0.199593] (-) TimerEvent: {}
+[0.300277] (-) TimerEvent: {}
+[0.401079] (-) TimerEvent: {}
+[0.502178] (-) TimerEvent: {}
+[0.602770] (-) TimerEvent: {}
+[0.703360] (-) TimerEvent: {}
+[0.803933] (-) TimerEvent: {}
+[0.904526] (-) TimerEvent: {}
+[1.005185] (-) TimerEvent: {}
+[1.105781] (-) TimerEvent: {}
+[1.206509] (-) TimerEvent: {}
+[1.307528] (-) TimerEvent: {}
+[1.408515] (-) TimerEvent: {}
+[1.509230] (-) TimerEvent: {}
+[1.610007] (-) TimerEvent: {}
+[1.710778] (-) TimerEvent: {}
+[1.811429] (-) TimerEvent: {}
+[1.912015] (-) TimerEvent: {}
+[2.012601] (-) TimerEvent: {}
+[2.113203] (-) TimerEvent: {}
+[2.213806] (-) TimerEvent: {}
+[2.314415] (-) TimerEvent: {}
+[2.415037] (-) TimerEvent: {}
+[2.515654] (-) TimerEvent: {}
+[2.616277] (-) TimerEvent: {}
+[2.716931] (-) TimerEvent: {}
+[2.817800] (-) TimerEvent: {}
+[2.919050] (-) TimerEvent: {}
+[2.974577] (base_control_ros2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/base_control_ros2', 'build', '--build-base', '/home/amr/amr_ws/build/base_control_ros2/build', 'install', '--record', '/home/amr/amr_ws/build/base_control_ros2/install.log', '--install-scripts', '$base/lib/base_control_ros2', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/amr/amr_ws/src/base_control_ros2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'amr', 'SSH_CLIENT': '10.154.187.185 47357 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/amr', 'OLDPWD': '/home/amr', 'SSH_TTY': '/dev/pts/3', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/amr/amr_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'amr', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/amr/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/amr/amr_ws/install/sllidar_ros2:/home/amr/amr_ws/install/base_control_ros2:/home/amr/amr_ws/install/amr_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/amr/amr_ws/build/base_control_ros2', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.154.187.185 47357 10.154.187.12 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/amr/amr_ws/build/base_control_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/amr_ws/install/base_control_ros2/lib/python3.10/site-packages:/home/amr/amr_ws/build/base_control_ros2:/home/amr/amr_ws/install/base_control_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/amr/amr_ws/install/sllidar_ros2:/home/amr/amr_ws/install/amr_description'}, 'shell': False}
+[3.019194] (-) TimerEvent: {}
+[3.119876] (-) TimerEvent: {}
+[3.220636] (-) TimerEvent: {}
+[3.321437] (-) TimerEvent: {}
+[3.422150] (-) TimerEvent: {}
+[3.522774] (-) TimerEvent: {}
+[3.623417] (-) TimerEvent: {}
+[3.724023] (-) TimerEvent: {}
+[3.824664] (-) TimerEvent: {}
+[3.925444] (-) TimerEvent: {}
+[4.026064] (-) TimerEvent: {}
+[4.115562] (base_control_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[4.118549] (base_control_ros2) StdoutLine: {'line': b'writing ../../build/base_control_ros2/base_control_ros2.egg-info/PKG-INFO\n'}
+[4.119756] (base_control_ros2) StdoutLine: {'line': b'writing dependency_links to ../../build/base_control_ros2/base_control_ros2.egg-info/dependency_links.txt\n'}
+[4.121175] (base_control_ros2) StdoutLine: {'line': b'writing entry points to ../../build/base_control_ros2/base_control_ros2.egg-info/entry_points.txt\n'}
+[4.122016] (base_control_ros2) StdoutLine: {'line': b'writing requirements to ../../build/base_control_ros2/base_control_ros2.egg-info/requires.txt\n'}
+[4.122757] (base_control_ros2) StdoutLine: {'line': b'writing top-level names to ../../build/base_control_ros2/base_control_ros2.egg-info/top_level.txt\n'}
+[4.126203] (-) TimerEvent: {}
+[4.131905] (base_control_ros2) StdoutLine: {'line': b"reading manifest file '../../build/base_control_ros2/base_control_ros2.egg-info/SOURCES.txt'\n"}
+[4.135872] (base_control_ros2) StdoutLine: {'line': b"writing manifest file '../../build/base_control_ros2/base_control_ros2.egg-info/SOURCES.txt'\n"}
+[4.136496] (base_control_ros2) StdoutLine: {'line': b'running build\n'}
+[4.137169] (base_control_ros2) StdoutLine: {'line': b'running build_py\n'}
+[4.139142] (base_control_ros2) StdoutLine: {'line': b'running install\n'}
+[4.140383] (base_control_ros2) StdoutLine: {'line': b'running install_lib\n'}
+[4.146579] (base_control_ros2) StdoutLine: {'line': b'running install_data\n'}
+[4.147661] (base_control_ros2) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.155258] (base_control_ros2) StdoutLine: {'line': b"removing '/home/amr/amr_ws/install/base_control_ros2/lib/python3.10/site-packages/base_control_ros2-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.156925] (base_control_ros2) StdoutLine: {'line': b'Copying ../../build/base_control_ros2/base_control_ros2.egg-info to /home/amr/amr_ws/install/base_control_ros2/lib/python3.10/site-packages/base_control_ros2-0.0.0-py3.10.egg-info\n'}
+[4.163205] (base_control_ros2) StdoutLine: {'line': b'running install_scripts\n'}
+[4.226383] (-) TimerEvent: {}
+[4.246604] (base_control_ros2) StdoutLine: {'line': b'Installing base_control_node script to /home/amr/amr_ws/install/base_control_ros2/lib/base_control_ros2\n'}
+[4.247641] (base_control_ros2) StdoutLine: {'line': b'Installing test_node script to /home/amr/amr_ws/install/base_control_ros2/lib/base_control_ros2\n'}
+[4.249581] (base_control_ros2) StdoutLine: {'line': b"writing list of installed files to '/home/amr/amr_ws/build/base_control_ros2/install.log'\n"}
+[4.326891] (-) TimerEvent: {}
+[4.374750] (base_control_ros2) CommandEnded: {'returncode': 0}
+[4.427857] (-) TimerEvent: {}
+[4.431479] (base_control_ros2) JobEnded: {'identifier': 'base_control_ros2', 'rc': 0}
+[4.434162] (-) EventReactorShutdown: {}

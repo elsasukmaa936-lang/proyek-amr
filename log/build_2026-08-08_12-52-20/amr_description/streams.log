@@ -1,0 +1,43 @@
+[0.056s] Invoking command in '/home/amr/amr_ws/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr/amr_ws/install/base_control_ros2:/opt/ros/humble /usr/bin/cmake /home/amr/amr_ws/src/amr_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amr/amr_ws/install/amr_description
+[1.056s] -- The C compiler identification is GNU 11.4.0
+[1.752s] -- The CXX compiler identification is GNU 11.4.0
+[1.800s] -- Detecting C compiler ABI info
+[2.460s] -- Detecting C compiler ABI info - done
+[2.487s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.492s] -- Detecting C compile features
+[2.703s] -- Detecting C compile features - done
+[2.722s] -- Detecting CXX compiler ABI info
+[3.104s] -- Detecting CXX compiler ABI info - done
+[3.131s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.132s] -- Detecting CXX compile features
+[3.134s] -- Detecting CXX compile features - done
+[3.173s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.965s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.302s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.898s] -- Configuring done
+[4.917s] -- Generating done
+[4.925s] -- Build files have been written to: /home/amr/amr_ws/build/amr_description
+[4.940s] Invoked command in '/home/amr/amr_ws/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr/amr_ws/install/base_control_ros2:/opt/ros/humble /usr/bin/cmake /home/amr/amr_ws/src/amr_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/amr/amr_ws/install/amr_description
+[4.948s] Invoking command in '/home/amr/amr_ws/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr/amr_ws/install/base_control_ros2:/opt/ros/humble /usr/bin/cmake --build /home/amr/amr_ws/build/amr_description -- -j4 -l4
+[5.086s] Invoked command in '/home/amr/amr_ws/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr/amr_ws/install/base_control_ros2:/opt/ros/humble /usr/bin/cmake --build /home/amr/amr_ws/build/amr_description -- -j4 -l4
+[5.125s] Invoking command in '/home/amr/amr_ws/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr/amr_ws/install/base_control_ros2:/opt/ros/humble /usr/bin/cmake --install /home/amr/amr_ws/build/amr_description
+[5.153s] -- Install configuration: ""
+[5.154s] -- Execute custom install script
+[5.156s] -- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/urdf/amr.urdf.xacro
+[5.187s] -- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/launch/description.launch.py
+[5.218s] -- Symlinking: /home/amr/amr_ws/install/amr_description/share/ament_index/resource_index/package_run_dependencies/amr_description
+[5.250s] -- Symlinking: /home/amr/amr_ws/install/amr_description/share/ament_index/resource_index/parent_prefix_path/amr_description
+[5.281s] -- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/environment/ament_prefix_path.sh
+[5.312s] -- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/environment/ament_prefix_path.dsv
+[5.343s] -- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/environment/path.sh
+[5.373s] -- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/environment/path.dsv
+[5.404s] -- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/local_setup.bash
+[5.434s] -- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/local_setup.sh
+[5.464s] -- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/local_setup.zsh
+[5.494s] -- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/local_setup.dsv
+[5.525s] -- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/package.dsv
+[5.555s] -- Symlinking: /home/amr/amr_ws/install/amr_description/share/ament_index/resource_index/packages/amr_description
+[5.587s] -- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/cmake/amr_descriptionConfig.cmake
+[5.617s] -- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/cmake/amr_descriptionConfig-version.cmake
+[5.648s] -- Symlinking: /home/amr/amr_ws/install/amr_description/share/amr_description/package.xml
+[5.684s] Invoked command in '/home/amr/amr_ws/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/amr/amr_ws/install/base_control_ros2:/opt/ros/humble /usr/bin/cmake --install /home/amr/amr_ws/build/amr_description

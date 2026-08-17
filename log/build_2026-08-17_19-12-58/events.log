@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.001179] (-) JobUnselected: {'identifier': 'amr_description'}
+[0.001297] (-) JobUnselected: {'identifier': 'base_control_ros2'}
+[0.001532] (-) JobUnselected: {'identifier': 'robot_navigation_ros2'}
+[0.001626] (-) JobUnselected: {'identifier': 'robot_vision_ros2'}
+[0.001743] (-) JobUnselected: {'identifier': 'robot_vslam_ros2'}
+[0.001986] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.002396] (-) EventReactorShutdown: {}

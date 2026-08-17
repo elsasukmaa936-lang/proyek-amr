@@ -1,0 +1,22 @@
+[2.976s] Invoking command in '/home/amr/amr_ws/src/base_control_ros2': PYTHONPATH=/home/amr/amr_ws/build/base_control_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/amr_ws/install/base_control_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/base_control_ros2 build --build-base /home/amr/amr_ws/build/base_control_ros2/build install --record /home/amr/amr_ws/build/base_control_ros2/install.log --install-scripts $base/lib/base_control_ros2 --single-version-externally-managed install_data
+[4.113s] running egg_info
+[4.116s] writing ../../build/base_control_ros2/base_control_ros2.egg-info/PKG-INFO
+[4.117s] writing dependency_links to ../../build/base_control_ros2/base_control_ros2.egg-info/dependency_links.txt
+[4.118s] writing entry points to ../../build/base_control_ros2/base_control_ros2.egg-info/entry_points.txt
+[4.119s] writing requirements to ../../build/base_control_ros2/base_control_ros2.egg-info/requires.txt
+[4.120s] writing top-level names to ../../build/base_control_ros2/base_control_ros2.egg-info/top_level.txt
+[4.129s] reading manifest file '../../build/base_control_ros2/base_control_ros2.egg-info/SOURCES.txt'
+[4.133s] writing manifest file '../../build/base_control_ros2/base_control_ros2.egg-info/SOURCES.txt'
+[4.134s] running build
+[4.134s] running build_py
+[4.136s] running install
+[4.137s] running install_lib
+[4.144s] running install_data
+[4.145s] running install_egg_info
+[4.152s] removing '/home/amr/amr_ws/install/base_control_ros2/lib/python3.10/site-packages/base_control_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+[4.154s] Copying ../../build/base_control_ros2/base_control_ros2.egg-info to /home/amr/amr_ws/install/base_control_ros2/lib/python3.10/site-packages/base_control_ros2-0.0.0-py3.10.egg-info
+[4.160s] running install_scripts
+[4.244s] Installing base_control_node script to /home/amr/amr_ws/install/base_control_ros2/lib/base_control_ros2
+[4.245s] Installing test_node script to /home/amr/amr_ws/install/base_control_ros2/lib/base_control_ros2
+[4.247s] writing list of installed files to '/home/amr/amr_ws/build/base_control_ros2/install.log'
+[4.372s] Invoked command in '/home/amr/amr_ws/src/base_control_ros2' returned '0': PYTHONPATH=/home/amr/amr_ws/build/base_control_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/amr_ws/install/base_control_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/base_control_ros2 build --build-base /home/amr/amr_ws/build/base_control_ros2/build install --record /home/amr/amr_ws/build/base_control_ros2/install.log --install-scripts $base/lib/base_control_ros2 --single-version-externally-managed install_data

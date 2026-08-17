@@ -1,0 +1,27 @@
+[4.427s] Invoking command in '/home/amr/amr_ws/build/base_control_ros2': PYTHONPATH=/home/amr/amr_ws/build/base_control_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/amr_ws/install/base_control_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/amr/amr_ws/build/base_control_ros2/build --no-deps symlink_data
+[5.445s] running develop
+[6.000s] running egg_info
+[6.000s] creating base_control_ros2.egg-info
+[6.001s] writing base_control_ros2.egg-info/PKG-INFO
+[6.002s] writing dependency_links to base_control_ros2.egg-info/dependency_links.txt
+[6.002s] writing entry points to base_control_ros2.egg-info/entry_points.txt
+[6.003s] writing requirements to base_control_ros2.egg-info/requires.txt
+[6.003s] writing top-level names to base_control_ros2.egg-info/top_level.txt
+[6.004s] writing manifest file 'base_control_ros2.egg-info/SOURCES.txt'
+[6.012s] reading manifest file 'base_control_ros2.egg-info/SOURCES.txt'
+[6.015s] writing manifest file 'base_control_ros2.egg-info/SOURCES.txt'
+[6.020s] running build_ext
+[6.021s] Creating /home/amr/amr_ws/install/base_control_ros2/lib/python3.10/site-packages/base-control-ros2.egg-link (link to .)
+[6.024s] Installing base_control_node script to /home/amr/amr_ws/install/base_control_ros2/lib/base_control_ros2
+[6.025s] Installing test_node script to /home/amr/amr_ws/install/base_control_ros2/lib/base_control_ros2
+[6.026s] 
+[6.027s] Installed /home/amr/amr_ws/build/base_control_ros2
+[6.027s] running symlink_data
+[6.028s] creating /home/amr/amr_ws/install/base_control_ros2/share/ament_index
+[6.028s] creating /home/amr/amr_ws/install/base_control_ros2/share/ament_index/resource_index
+[6.029s] creating /home/amr/amr_ws/install/base_control_ros2/share/ament_index/resource_index/packages
+[6.029s] symbolically linking /home/amr/amr_ws/build/base_control_ros2/resource/base_control_ros2 -> /home/amr/amr_ws/install/base_control_ros2/share/ament_index/resource_index/packages
+[6.030s] symbolically linking /home/amr/amr_ws/build/base_control_ros2/package.xml -> /home/amr/amr_ws/install/base_control_ros2/share/base_control_ros2
+[6.031s] creating /home/amr/amr_ws/install/base_control_ros2/share/base_control_ros2/launch
+[6.032s] symbolically linking /home/amr/amr_ws/build/base_control_ros2/launch/base_control.launch.py -> /home/amr/amr_ws/install/base_control_ros2/share/base_control_ros2/launch
+[6.157s] Invoked command in '/home/amr/amr_ws/build/base_control_ros2' returned '0': PYTHONPATH=/home/amr/amr_ws/build/base_control_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amr/amr_ws/install/base_control_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/amr/amr_ws/build/base_control_ros2/build --no-deps symlink_data
